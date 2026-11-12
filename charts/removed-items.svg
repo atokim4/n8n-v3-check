@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 492" width="760" height="492" role="img" aria-labelledby="t d">
+  <title id="t">What breaks: the most common removed items</title><desc id="d">Share of all public templates that contain each one (a template can have several)</desc>
+  <style>
+    svg { --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781; --grid:#e1e0d9; --axis:#c3c2b7;
+          --s1:#2a78d6; --o-high:#184f95; --o-mid:#3987e5; --o-low:#86b6ef; }
+    @media (prefers-color-scheme: dark) {
+      svg { --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781; --grid:#2c2c2a; --axis:#383835;
+            --s1:#3987e5; --o-high:#3987e5; --o-mid:#256abf; --o-low:#184f95; }
+    }
+    text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; fill: var(--ink2); font-size: 13px; }
+    .title { fill: var(--ink); font-size: 17px; font-weight: 600; }
+    .sub { fill: var(--ink2); font-size: 13px; }
+    .val { fill: var(--ink); font-size: 12px; font-variant-numeric: tabular-nums; }
+    .muted { fill: var(--muted); font-size: 11px; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .axis { stroke: var(--axis); stroke-width: 1; }
+    .hit { fill: transparent; }
+    g.mark:hover .bar { opacity: .82; }
+  </style>
+  <rect width="760" height="492" rx="8" fill="var(--surface)"/>
+  <text x="24" y="34" class="title">What breaks: the most common removed items</text>
+  <text x="24" y="56" class="sub">Share of all public templates that contain each one (a template can have several)</text>
+  <line class="grid" x1="300" x2="300" y1="84" y2="446"/><text x="300" y="78" class="muted" text-anchor="middle">0%</text>
+  <line class="grid" x1="426.66666666666663" x2="426.66666666666663" y1="84" y2="446"/><text x="426.66666666666663" y="78" class="muted" text-anchor="middle">1%</text>
+  <line class="grid" x1="553.3333333333333" x2="553.3333333333333" y1="84" y2="446"/><text x="553.3333333333333" y="78" class="muted" text-anchor="middle">2%</text>
+  <line class="grid" x1="680" x2="680" y1="84" y2="446"/><text x="680" y="78" class="muted" text-anchor="middle">3%</text>
+  <g class="mark"><title>Function: 328 of 14,139 templates (2.3%), 2.9% of views</title><rect class="hit" x="24" y="88" width="712" height="30"/><text x="290" y="107" text-anchor="end" fill="var(--ink)">Function</text><path class="bar" fill="var(--s1)" d="M300,92 H589.8666666666667 Q593.8666666666667,92 593.8666666666667,96 V108 Q593.8666666666667,112 589.8666666666667,112 H300 Z"/><text x="599.8666666666667" y="107" class="val">2.3% (328)</text></g>
+  <g class="mark"><title>Cron: 244 of 14,139 templates (1.7%), 1.9% of views</title><rect class="hit" x="24" y="118" width="712" height="30"/><text x="290" y="137" text-anchor="end" fill="var(--ink)">Cron</text><path class="bar" fill="var(--s1)" d="M300,122 H515.1333333333333 Q519.1333333333333,122 519.1333333333333,126 V138 Q519.1333333333333,142 515.1333333333333,142 H300 Z"/><text x="525.1333333333333" y="137" class="val">1.7% (244)</text></g>
+  <g class="mark"><title>OpenAI (legacy): 115 of 14,139 templates (0.8%), 2.3% of views</title><rect class="hit" x="24" y="148" width="712" height="30"/><text x="290" y="167" text-anchor="end" fill="var(--ink)">OpenAI (legacy)</text><path class="bar" fill="var(--s1)" d="M300,152 H398.6 Q402.6,152 402.6,156 V168 Q402.6,172 398.6,172 H300 Z"/><text x="408.6" y="167" class="val">0.8% (115)</text></g>
+  <g class="mark"><title>HTTP Request Tool (legacy): 97 of 14,139 templates (0.7%), 2.7% of views</title><rect class="hit" x="24" y="178" width="712" height="30"/><text x="290" y="197" text-anchor="end" fill="var(--ink)">HTTP Request Tool (legacy)</text><path class="bar" fill="var(--s1)" d="M300,182 H383.4 Q387.4,182 387.4,186 V198 Q387.4,202 383.4,202 H300 Z"/><text x="393.4" y="197" class="val">0.7% (97)</text></g>
+  <g class="mark"><title>AI Agent v1 in a removed mode: 88 of 14,139 templates (0.6%), 4.9% of views</title><rect class="hit" x="24" y="208" width="712" height="30"/><text x="290" y="227" text-anchor="end" fill="var(--ink)">AI Agent v1 in a removed mode</text><path class="bar" fill="var(--s1)" d="M300,212 H374.5333333333333 Q378.5333333333333,212 378.5333333333333,216 V228 Q378.5333333333333,232 374.5333333333333,232 H300 Z"/><text x="384.5333333333333" y="227" class="val">0.6% (88)</text></g>
+  <g class="mark"><title>Edit Image v1: 86 of 14,139 templates (0.6%), 0.8% of views</title><rect class="hit" x="24" y="238" width="712" height="30"/><text x="290" y="257" text-anchor="end" fill="var(--ink)">Edit Image v1</text><path class="bar" fill="var(--s1)" d="M300,242 H373.26666666666665 Q377.26666666666665,242 377.26666666666665,246 V258 Q377.26666666666665,262 373.26666666666665,262 H300 Z"/><text x="383.26666666666665" y="257" class="val">0.6% (86)</text></g>
+  <g class="mark"><title>Item Lists: 84 of 14,139 templates (0.6%), 2.4% of views</title><rect class="hit" x="24" y="268" width="712" height="30"/><text x="290" y="287" text-anchor="end" fill="var(--ink)">Item Lists</text><path class="bar" fill="var(--s1)" d="M300,272 H370.73333333333335 Q374.73333333333335,272 374.73333333333335,276 V288 Q374.73333333333335,292 370.73333333333335,292 H300 Z"/><text x="380.73333333333335" y="287" class="val">0.6% (84)</text></g>
+  <g class="mark"><title>SerpApi (Google Search): 81 of 14,139 templates (0.6%), 6.8% of views</title><rect class="hit" x="24" y="298" width="712" height="30"/><text x="290" y="317" text-anchor="end" fill="var(--ink)">SerpApi (Google Search)</text><path class="bar" fill="var(--s1)" d="M300,302 H368.2 Q372.2,302 372.2,306 V318 Q372.2,322 368.2,322 H300 Z"/><text x="378.2" y="317" class="val">0.6% (81)</text></g>
+  <g class="mark"><title>Convert to/from binary data: 48 of 14,139 templates (0.3%), 0.6% of views</title><rect class="hit" x="24" y="328" width="712" height="30"/><text x="290" y="347" text-anchor="end" fill="var(--ink)">Convert to/from binary data</text><path class="bar" fill="var(--s1)" d="M300,332 H339.06666666666666 Q343.06666666666666,332 343.06666666666666,336 V348 Q343.06666666666666,352 339.06666666666666,352 H300 Z"/><text x="349.06666666666666" y="347" class="val">0.3% (48)</text></g>
+  <g class="mark"><title>Read Binary File: 42 of 14,139 templates (0.3%), 2.9% of views</title><rect class="hit" x="24" y="358" width="712" height="30"/><text x="290" y="377" text-anchor="end" fill="var(--ink)">Read Binary File</text><path class="bar" fill="var(--s1)" d="M300,362 H334 Q338,362 338,366 V378 Q338,382 334,382 H300 Z"/><text x="344" y="377" class="val">0.3% (42)</text></g>
+  <g class="mark"><title>Write Binary File: 41 of 14,139 templates (0.3%), 2.1% of views</title><rect class="hit" x="24" y="388" width="712" height="30"/><text x="290" y="407" text-anchor="end" fill="var(--ink)">Write Binary File</text><path class="bar" fill="var(--s1)" d="M300,392 H332.73333333333335 Q336.73333333333335,392 336.73333333333335,396 V408 Q336.73333333333335,412 332.73333333333335,412 H300 Z"/><text x="342.73333333333335" y="407" class="val">0.3% (41)</text></g>
+  <g class="mark"><title>Function Item: 34 of 14,139 templates (0.2%), 1.1% of views</title><rect class="hit" x="24" y="418" width="712" height="30"/><text x="290" y="437" text-anchor="end" fill="var(--ink)">Function Item</text><path class="bar" fill="var(--s1)" d="M300,422 H326.4 Q330.4,422 330.4,426 V438 Q330.4,442 326.4,442 H300 Z"/><text x="336.4" y="437" class="val">0.2% (34)</text></g>
+  <line class="axis" x1="300" x2="300" y1="84" y2="446"/>
+
+  <text x="24" y="478" class="muted">Source: api.n8n.io public template gallery, checked with n8n-v3-check (rules from n8n 3.x migration report).</text>
+</svg>

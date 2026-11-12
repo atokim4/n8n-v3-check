@@ -1,0 +1,48 @@
+section,key,label,severity,templates,affected,share_pct,views,affected_views,view_share_pct
+overall,breaks_on_3.0,breaks_on_3.0,,14139,1117,7.90,20235102,5282250,26.10
+overall,breaks_on_3.0_enabled_nodes_only,breaks_on_3.0_enabled_nodes_only,,14139,1113,7.87,20235102,5282250,26.10
+overall,behaviour_change_only,behaviour_change_only,,14139,1787,12.64,20235102,5319051,26.29
+overall,breaks_and_every_break_has_auto_migration,breaks_and_every_break_has_auto_migration,,14139,321,2.27,20235102,802885,3.97
+overall,uses_community_node,uses_community_node,,14139,2139,15.13,20235102,715796,3.54
+by_rule,agent-node-version-v3,AI Agent below v2 (Tools Agent),warning,14139,1431,10.12,20235102,6900904,34.10
+by_rule,agent-removed-modes-v3,AI Agent v1 in a removed mode,error,14139,88,0.62,20235102,996235,4.92
+by_rule,ai-transform-deprecated,AI Transform,error,14139,11,0.08,20235102,21166,0.10
+by_rule,always-output-data-multi-output-v3,Always Output Data on multi-output node,warning,14139,163,1.15,20235102,340772,1.68
+by_rule,chat-trigger-embedded-json-v3,Embedded Chat Trigger,warning,14139,31,0.22,20235102,112727,0.56
+by_rule,convert-to-from-binary-data-removed-v3,Convert to/from binary data,error,14139,48,0.34,20235102,129353,0.64
+by_rule,cron-removed-v3,Cron,error,14139,244,1.73,20235102,374746,1.85
+by_rule,edit-image-version-v3,Edit Image v1,error,14139,86,0.61,20235102,167088,0.83
+by_rule,function-item-removed-v3,Function Item,error,14139,34,0.24,20235102,213271,1.05
+by_rule,function-removed-v3,Function,error,14139,328,2.32,20235102,586402,2.90
+by_rule,get-paired-item-v3,$getPairedItem expression,error,14139,1,0.01,20235102,0,0.00
+by_rule,gmail-trigger-version-v3,Gmail Trigger below v1.4,warning,14139,474,3.35,20235102,588029,2.91
+by_rule,html-extract-removed-v3,HTML Extract,error,14139,21,0.15,20235102,422226,2.09
+by_rule,http-request-tool-removed-v3,HTTP Request Tool (legacy),error,14139,97,0.69,20235102,544036,2.69
+by_rule,i-calendar-removed-v3,iCalendar,error,14139,1,0.01,20235102,4201,0.02
+by_rule,interval-removed-v3,Interval,error,14139,10,0.07,20235102,22701,0.11
+by_rule,item-lists-removed-v3,Item Lists,error,14139,84,0.59,20235102,481288,2.38
+by_rule,langchain-code-removed-v3,LangChain Code,error,14139,15,0.11,20235102,100801,0.50
+by_rule,manual-chat-trigger-removed-v3,Manual Chat Trigger,error,14139,4,0.03,20235102,32840,0.16
+by_rule,openai-model-removed-v3,OpenAI Model,error,14139,6,0.04,20235102,92175,0.46
+by_rule,openai-removed-v3,OpenAI (legacy),error,14139,115,0.81,20235102,461511,2.28
+by_rule,orbit-removed-v3,Orbit,error,14139,2,0.01,20235102,960,0.00
+by_rule,read-binary-file-removed-v3,Read Binary File,error,14139,42,0.30,20235102,584656,2.89
+by_rule,read-binary-files-removed-v3,Read Binary Files,error,14139,6,0.04,20235102,40445,0.20
+by_rule,read-pdf-removed-v3,Read PDF,error,14139,6,0.04,20235102,131314,0.65
+by_rule,serpapi-google-search-removed-v3,SerpApi (Google Search),error,14139,81,0.57,20235102,1372902,6.78
+by_rule,supabase-insert-removed-v3,Supabase: Insert,error,14139,1,0.01,20235102,1,0.00
+by_rule,workflow-trigger-removed-v3,Workflow Trigger,error,14139,1,0.01,20235102,1250,0.01
+by_rule,write-binary-file-removed-v3,Write Binary File,error,14139,41,0.29,20235102,425055,2.10
+by_rule,zep-removed-v3,Zep,error,14139,1,0.01,20235102,0,0.00
+by_price,free,free,,12792,982,7.68,19254741,5141739,26.70
+by_price,paid,paid,,1347,135,10.02,980361,140511,14.33
+by_creator,verified,verified,,11881,923,7.77,17862188,4718056,26.41
+by_creator,not_verified,not_verified,,2258,194,8.59,2372914,564194,23.78
+by_year,2019,2019,,24,15,62.50,89818,62107,69.15
+by_year,2020,2020,,307,77,25.08,877491,319859,36.45
+by_year,2021,2021,,136,54,39.71,464691,299662,64.49
+by_year,2022,2022,,143,79,55.24,1698350,548351,32.29
+by_year,2023,2023,,86,27,31.40,2486412,1352649,54.40
+by_year,2024,2024,,462,71,15.37,5318140,1078691,20.28
+by_year,2025,2025,,6561,622,9.48,9235730,1619150,17.53
+by_year,2026,2026,,6420,172,2.68,64470,1781,2.76

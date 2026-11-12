@@ -1,0 +1,21 @@
+id,name,views,year,breaking_items
+1954,AI agent chat,780399,2023,SerpApi (Google Search)
+3066,✨🤖Automate Multi-Platform Social Media Content Creation with AI,205470,2025,AI Agent v1 in a removed mode; SerpApi (Google Search)
+1748,Pulling data from services that n8n doesn’t have a pre-built integration for,194346,2022,Item Lists; HTML Extract
+3442,Fully Automated AI Video Generation & Multi-Platform Publishing,191045,2025,Read Binary File; Write Binary File
+1934,Telegram AI Chatbot,168542,2023,OpenAI (legacy)
+585,Extract text from a PDF file,96182,2020,Read Binary File; Read PDF
+2786,Create a Branded AI-Powered Website Chatbot,88237,2025,HTTP Request Tool (legacy)
+1073,Scrape and store data from multiple website pages,80004,2021,HTML Extract; Function; Function Item; Read Binary File; Write Binary File
+2859,Chat with Postgresql Database,73534,2025,AI Agent v1 in a removed mode
+1862,OpenAI GPT-3: Company Enrichment from website content,72240,2023,HTML Extract; OpenAI (legacy)
+1959,AI chatbot that can search the web,71533,2023,SerpApi (Google Search)
+2324,AI web researcher for sales,68630,2024,SerpApi (Google Search)
+2982,🤖 AI Powered RAG Chatbot for Your Docs + Google Drive + Gemini + Qdrant,65428,2025,LangChain Code
+2035,Telegram AI bot with LangChain nodes,59442,2023,AI Agent v1 in a removed mode
+3135,✨🩷Automated Social Media Content Publishing Factory + System Prompt Composition,55060,2025,SerpApi (Google Search)
+2557,Hacker News to Video Content,46708,2024,HTTP Request Tool (legacy)
+2063,Google Maps Scraper,46593,2024,Item Lists
+2894,"Upload to Instagram, TikTok & YouTube from Google Drive",45458,2025,Write Binary File; Read Binary File
+3443,Scrape business leads from Google Maps using OpenAI and Google Sheets,43596,2025,SerpApi (Google Search)
+3859,AI Customer Support Assistant · WhatsApp Ready · Works for Any Business,43454,2025,HTTP Request Tool (legacy)

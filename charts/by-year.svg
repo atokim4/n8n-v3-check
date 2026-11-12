@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img" aria-labelledby="t d">
+  <title id="t">Share of templates that break, by publication year</title><desc id="d">Templates that break on n8n 3.0, grouped by the year they were published (years with 20+ templates)</desc>
+  <style>
+    svg { --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781; --grid:#e1e0d9; --axis:#c3c2b7;
+          --s1:#2a78d6; --o-high:#184f95; --o-mid:#3987e5; --o-low:#86b6ef; }
+    @media (prefers-color-scheme: dark) {
+      svg { --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781; --grid:#2c2c2a; --axis:#383835;
+            --s1:#3987e5; --o-high:#3987e5; --o-mid:#256abf; --o-low:#184f95; }
+    }
+    text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; fill: var(--ink2); font-size: 13px; }
+    .title { fill: var(--ink); font-size: 17px; font-weight: 600; }
+    .sub { fill: var(--ink2); font-size: 13px; }
+    .val { fill: var(--ink); font-size: 12px; font-variant-numeric: tabular-nums; }
+    .muted { fill: var(--muted); font-size: 11px; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .axis { stroke: var(--axis); stroke-width: 1; }
+    .hit { fill: transparent; }
+    g.mark:hover .bar { opacity: .82; }
+  </style>
+  <rect width="760" height="330" rx="8" fill="var(--surface)"/>
+  <text x="24" y="34" class="title">Share of templates that break, by publication year</text>
+  <text x="24" y="56" class="sub">Templates that break on n8n 3.0, grouped by the year they were published (years with 20+ templates)</text>
+  <line class="grid" x1="64" x2="736" y1="250" y2="250"/><text x="56" y="254" class="muted" text-anchor="end">0%</text>
+  <line class="grid" x1="64" x2="736" y1="210" y2="210"/><text x="56" y="214" class="muted" text-anchor="end">20%</text>
+  <line class="grid" x1="64" x2="736" y1="170" y2="170"/><text x="56" y="174" class="muted" text-anchor="end">40%</text>
+  <line class="grid" x1="64" x2="736" y1="130" y2="130"/><text x="56" y="134" class="muted" text-anchor="end">60%</text>
+  <line class="grid" x1="64" x2="736" y1="90" y2="90"/><text x="56" y="94" class="muted" text-anchor="end">80%</text>
+  <g class="mark"><title>2019: 15 of 24 templates break (62.5%)</title><rect class="hit" x="70" y="90" width="72" height="200"/><path class="bar" fill="var(--s1)" d="M76,250 V129 Q76,125 80,125 H132 Q136,125 136,129 V250 Z"/><text x="106" y="119" class="val" text-anchor="middle">62.5%</text><text x="106" y="268" text-anchor="middle" fill="var(--ink)">2019</text><text x="106" y="284" class="muted" text-anchor="middle">n=24</text></g>
+  <g class="mark"><title>2020: 77 of 307 templates break (25.1%)</title><rect class="hit" x="154" y="90" width="72" height="200"/><path class="bar" fill="var(--s1)" d="M160,250 V203.84 Q160,199.84 164,199.84 H216 Q220,199.84 220,203.84 V250 Z"/><text x="190" y="193.84" class="val" text-anchor="middle">25.1%</text><text x="190" y="268" text-anchor="middle" fill="var(--ink)">2020</text><text x="190" y="284" class="muted" text-anchor="middle">n=307</text></g>
+  <g class="mark"><title>2021: 54 of 136 templates break (39.7%)</title><rect class="hit" x="238" y="90" width="72" height="200"/><path class="bar" fill="var(--s1)" d="M244,250 V174.57999999999998 Q244,170.57999999999998 248,170.57999999999998 H300 Q304,170.57999999999998 304,174.57999999999998 V250 Z"/><text x="274" y="164.57999999999998" class="val" text-anchor="middle">39.7%</text><text x="274" y="268" text-anchor="middle" fill="var(--ink)">2021</text><text x="274" y="284" class="muted" text-anchor="middle">n=136</text></g>
+  <g class="mark"><title>2022: 79 of 143 templates break (55.2%)</title><rect class="hit" x="322" y="90" width="72" height="200"/><path class="bar" fill="var(--s1)" d="M328,250 V143.51999999999998 Q328,139.51999999999998 332,139.51999999999998 H384 Q388,139.51999999999998 388,143.51999999999998 V250 Z"/><text x="358" y="133.51999999999998" class="val" text-anchor="middle">55.2%</text><text x="358" y="268" text-anchor="middle" fill="var(--ink)">2022</text><text x="358" y="284" class="muted" text-anchor="middle">n=143</text></g>
+  <g class="mark"><title>2023: 27 of 86 templates break (31.4%)</title><rect class="hit" x="406" y="90" width="72" height="200"/><path class="bar" fill="var(--s1)" d="M412,250 V191.2 Q412,187.2 416,187.2 H468 Q472,187.2 472,191.2 V250 Z"/><text x="442" y="181.2" class="val" text-anchor="middle">31.4%</text><text x="442" y="268" text-anchor="middle" fill="var(--ink)">2023</text><text x="442" y="284" class="muted" text-anchor="middle">n=86</text></g>
+  <g class="mark"><title>2024: 71 of 462 templates break (15.4%)</title><rect class="hit" x="490" y="90" width="72" height="200"/><path class="bar" fill="var(--s1)" d="M496,250 V223.26 Q496,219.26 500,219.26 H552 Q556,219.26 556,223.26 V250 Z"/><text x="526" y="213.26" class="val" text-anchor="middle">15.4%</text><text x="526" y="268" text-anchor="middle" fill="var(--ink)">2024</text><text x="526" y="284" class="muted" text-anchor="middle">n=462</text></g>
+  <g class="mark"><title>2025: 622 of 6,561 templates break (9.5%)</title><rect class="hit" x="574" y="90" width="72" height="200"/><path class="bar" fill="var(--s1)" d="M580,250 V235.04 Q580,231.04 584,231.04 H636 Q640,231.04 640,235.04 V250 Z"/><text x="610" y="225.04" class="val" text-anchor="middle">9.5%</text><text x="610" y="268" text-anchor="middle" fill="var(--ink)">2025</text><text x="610" y="284" class="muted" text-anchor="middle">n=6,561</text></g>
+  <g class="mark"><title>2026: 172 of 6,420 templates break (2.7%)</title><rect class="hit" x="658" y="90" width="72" height="200"/><path class="bar" fill="var(--s1)" d="M664,250 V248.64 Q664,244.64 668,244.64 H720 Q724,244.64 724,248.64 V250 Z"/><text x="694" y="238.64" class="val" text-anchor="middle">2.7%</text><text x="694" y="268" text-anchor="middle" fill="var(--ink)">2026</text><text x="694" y="284" class="muted" text-anchor="middle">n=6,420</text></g>
+  <line class="axis" x1="64" x2="736" y1="250" y2="250"/>
+
+  <text x="24" y="316" class="muted">Source: api.n8n.io public template gallery, checked with n8n-v3-check (rules from n8n 3.x migration report).</text>
+</svg>

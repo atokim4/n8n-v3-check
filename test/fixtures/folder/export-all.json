@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Export A",
+    "nodes": [
+      {
+        "id": "interval",
+        "name": "Interval",
+        "type": "n8n-nodes-base.interval",
+        "typeVersion": 1,
+        "position": [
+          0,
+          0
+        ],
+        "parameters": {}
+      }
+    ],
+    "connections": {}
+  },
+  {
+    "name": "Export B",
+    "nodes": [
+      {
+        "id": "webhook",
+        "name": "Webhook",
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 2,
+        "position": [
+          0,
+          0
+        ],
+        "parameters": {}
+      }
+    ],
+    "connections": {}
+  }
+]

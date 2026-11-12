@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-labelledby="t d">
+  <title id="t">How the public n8n templates fare on n8n 3.0</title><desc id="d">Each template counted once by its most severe finding</desc>
+  <style>
+    svg { --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781; --grid:#e1e0d9; --axis:#c3c2b7;
+          --s1:#2a78d6; --o-high:#184f95; --o-mid:#3987e5; --o-low:#86b6ef; }
+    @media (prefers-color-scheme: dark) {
+      svg { --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781; --grid:#2c2c2a; --axis:#383835;
+            --s1:#3987e5; --o-high:#3987e5; --o-mid:#256abf; --o-low:#184f95; }
+    }
+    text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; fill: var(--ink2); font-size: 13px; }
+    .title { fill: var(--ink); font-size: 17px; font-weight: 600; }
+    .sub { fill: var(--ink2); font-size: 13px; }
+    .val { fill: var(--ink); font-size: 12px; font-variant-numeric: tabular-nums; }
+    .muted { fill: var(--muted); font-size: 11px; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .axis { stroke: var(--axis); stroke-width: 1; }
+    .hit { fill: transparent; }
+    g.mark:hover .bar { opacity: .82; }
+  </style>
+  <rect width="760" height="300" rx="8" fill="var(--surface)"/>
+  <text x="24" y="34" class="title">How the public n8n templates fare on n8n 3.0</text>
+  <text x="24" y="56" class="sub">Each template counted once by its most severe finding</text>
+  <rect x="24" y="78" width="12" height="12" rx="2" fill="var(--o-high)"/><text x="42" y="89">Breaks on 3.0</text>
+  <rect x="159.60000000000002" y="78" width="12" height="12" rx="2" fill="var(--o-mid)"/><text x="177.60000000000002" y="89">Runs, but behaves differently</text>
+  <rect x="410.40000000000003" y="78" width="12" height="12" rx="2" fill="var(--o-low)"/><text x="428.40000000000003" y="89">Not affected</text>
+  <text x="24" y="138" fill="var(--ink)">Share of templates</text>
+  <g class="mark"><title>Share of templates: Breaks on 3.0 7.9%</title><rect class="bar" x="170" y="116" width="40.660725652450665" height="34" fill="var(--o-high)" /><text x="170" y="110" class="val" style="font-weight:600">7.9%</text></g>
+  <g class="mark"><title>Share of templates: Runs, but behaves differently 12.6%</title><rect class="bar" x="212.66072565245065" y="116" width="66.24952259707193" height="34" fill="var(--o-mid)" /><text x="220.66072565245065" y="138" style="fill:#ffffff;font-weight:600">12.6%</text></g>
+  <g class="mark"><title>Share of templates: Not affected 79.5%</title><rect class="bar" x="280.91024824952257" y="116" width="429.0897517504774" height="34" fill="var(--o-low)" rx="4"/><text x="288.91024824952257" y="138" style="fill:#0b0b0b;font-weight:600">79.5%</text></g>
+  <text x="24" y="202" fill="var(--ink)">Share of views</text>
+  <g class="mark"><title>Share of views: Breaks on 3.0 26.1%</title><rect class="bar" x="170" y="180" width="138.9637075217115" height="34" fill="var(--o-high)" /><text x="178" y="202" style="fill:#ffffff;font-weight:600">26.1%</text></g>
+  <g class="mark"><title>Share of views: Runs, but behaves differently 26.3%</title><rect class="bar" x="310.9637075217115" y="180" width="139.9457900434601" height="34" fill="var(--o-mid)" /><text x="318.9637075217115" y="202" style="fill:#ffffff;font-weight:600">26.3%</text></g>
+  <g class="mark"><title>Share of views: Not affected 47.6%</title><rect class="bar" x="452.9094975651716" y="180" width="257.09050243482835" height="34" fill="var(--o-low)" rx="4"/><text x="460.9094975651716" y="202" style="fill:#0b0b0b;font-weight:600">47.6%</text></g>
+  <text x="24" y="262" class="sub">14,139 templates, 20,235,102 total views. "Breaks" = at least one node n8n 3.0 removes or fails.</text>
+
+  <text x="24" y="286" class="muted">Source: api.n8n.io public template gallery, checked with n8n-v3-check (rules from n8n 3.x migration report).</text>
+</svg>

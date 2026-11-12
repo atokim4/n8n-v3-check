@@ -1,0 +1,8 @@
+{
+  "name": "Inbox triage (behaviour changes only)",
+  "nodes": [
+    { "id": "g", "name": "Gmail Trigger", "type": "n8n-nodes-base.gmailTrigger", "typeVersion": 1.2, "position": [0, 0], "parameters": {} },
+    { "id": "a", "name": "AI Agent", "type": "@n8n/n8n-nodes-langchain.agent", "typeVersion": 1.8, "position": [200, 0], "parameters": {} }
+  ],
+  "connections": {}
+}

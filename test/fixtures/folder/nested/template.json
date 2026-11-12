@@ -1,0 +1,22 @@
+{
+  "workflow": {
+    "id": 42,
+    "name": "Gallery template",
+    "workflow": {
+      "nodes": [
+        {
+          "id": "read-pdf",
+          "name": "Read PDF",
+          "type": "n8n-nodes-base.readPDF",
+          "typeVersion": 1,
+          "position": [
+            0,
+            0
+          ],
+          "parameters": {}
+        }
+      ],
+      "connections": {}
+    }
+  }
+}
